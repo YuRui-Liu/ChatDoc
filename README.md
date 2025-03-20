@@ -19,7 +19,9 @@
 
 - 技术选型
         
-    Python 3.10  
+    Python 3.10
+
+    llm: qwen2.5-72b-instruct
 
     RAGFlow deepdoc (用于构建和部署基于检索增强生成)
 
