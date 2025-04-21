@@ -12,7 +12,7 @@ class RagLLM(object):
     client: Optional[Any] = None
     message: Optional[List] = None
 
-    def __init__(self, api_key="sk-c5cfa1d6bd5a4c6f82d4041f24a1c03f",
+    def __init__(self, api_key="your_api_key",
                  base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
                  model="qwen2.5-72b-instruct",
                  sys_prompt=""):
@@ -52,7 +52,7 @@ class QwenLLM(LLM):
     message: Optional[List] = None
     model_config = {"extra": "allow"}  # 允许额外字段
 
-    def __init__(self, api_key="sk-c5cfa1d6bd5a4c6f82d4041f24a1c03f",
+    def __init__(self, api_key="your_api_key",
                  base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
                  model="qwen2.5-72b-instruct",
                  sys_prompt=""):
